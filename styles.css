@@ -92,6 +92,12 @@ nav h4 {
   border: none;
 }
 
+.buttons-heading button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
 .single-preview {
   display: flex;
   align-items: center;
