@@ -10,12 +10,18 @@
   <body>
     <nav>
       <h1>YouTube</h1>
-      <button>Search</button>
+      <input
+        type="search"
+        name="Search"
+        id="search-field"
+        placeholder="Search"
+      />
       <h4>R</h4>
     </nav>
     <div class="Video-page-display">
-      <section class="youtube-video">
+      <section class="youtube-video-container">
         <iframe
+          class="youtube-video"
           width="650"
           height="400"
           src="https://www.youtube.com/embed/Agl0r6IjcPw"
@@ -33,6 +39,20 @@
           </div>
           <button class="subscribe">Subscribe</button>
         </div>
+        <div class="video-description-container">
+          <p>57k views 5 years ago</p>
+          <p>
+            Team Treehouse, free trial (affiliate link) <br />
+            <a href=" http://treehouse.7eer.net/c/317530/22...">
+              http://treehouse.7eer.net/c/317530/22...</a
+            >
+            <br />
+            Here are the main benefits of being a web developer as I see it.
+            This video will, hopefully, either motivate those of you who are
+            already on the path towards becoming a web developer, or those who
+            are considering a career in web development.
+          </p>
+        </div>
       </section>
       <section class="video-previews">
         <div class="buttons-heading">
@@ -40,6 +60,52 @@
           <button>From your search</button>
           <button>Listenable</button>
           <button>Related</button>
+        </div>
+        <div class="single-preview">
+          <img src="https://bit.ly/3V0c1Wt" alt="thumbnail" />
+          <div class="preview-description">
+            <h4 class="preview-title">
+              The #1 Reason People Fail at Learning Web Development
+            </h4>
+            <p class="preview-username">Stefan Mischook</p>
+            <div class="views-date">53k views . 3 years ago</div>
+          </div>
+        </div>
+        <div class="single-preview">
+          <img src="https://bit.ly/3EPOmCz" alt="thumbnail" />
+          <div class="preview-description">
+            <h4 class="preview-title">
+              Beautiful Piano Music, Vol. 3 ~ Relaxing Music for Studying,
+            </h4>
+            <p class="preview-username">Soothing Relaxation</p>
+            <div class="views-date">55M views . 3 years ago</div>
+          </div>
+        </div>
+        <div class="single-preview">
+          <img src="https://bit.ly/3EUtiuP" alt="thumbnail" />
+          <div class="preview-description">
+            <h4 class="preview-title">Manhattan Lounge - Cool Music</h4>
+            <p class="preview-username">PMB Music</p>
+            <div class="views-date">84k views . 3 weeks ago</div>
+          </div>
+        </div>
+        <div class="single-preview">
+          <img src="https://bit.ly/3gy5ljj" alt="thumbnail" />
+          <div class="preview-description">
+            <h4 class="preview-title">Engaging The Anointing</h4>
+            <p class="preview-username">Apostle Joshua Selman</p>
+            <div class="views-date">SBiC Connect 3 days ago</div>
+          </div>
+        </div>
+        <div class="single-preview">
+          <img src="https://bit.ly/3TRWKWs" alt="thumbnail" />
+          <div class="preview-description">
+            <h4 class="preview-title">
+              RESTORATION OF THE NERVOUS SYSTEM 🌿 Gentle
+            </h4>
+            <p class="preview-username">Love Yourself</p>
+            <div class="views-date">4.2M views . 4 months ago</div>
+          </div>
         </div>
       </section>
     </div>
