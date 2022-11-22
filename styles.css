@@ -23,3 +23,43 @@ nav h4 {
   border-radius: 80%;
   color: white;
 }
+
+.Video-page-display {
+  border: 2px solid yellow;
+  display: flex;
+  padding: 2rem;
+}
+
+.video-previews {
+  border: 2px solid red;
+  width: 40%;
+}
+
+.youtube-video {
+  /* border: 2px solid green; */
+  width: 60%;
+  padding-left: 2rem;
+}
+
+.subscriber-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.subscriber-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+}
+
+.youtuber-name h4 {
+  margin-bottom: 1px;
+}
+.subscribe {
+  padding: 12px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
