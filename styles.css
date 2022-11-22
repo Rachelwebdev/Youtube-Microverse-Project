@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Navigation bar */
 nav {
   margin-top: 2rem;
   display: flex;
@@ -30,6 +31,8 @@ nav h4 {
   border-radius: 80%;
   color: white;
 }
+
+/* Main Videos Display Page */
 
 .Video-page-display {
   display: flex;
@@ -79,6 +82,8 @@ nav h4 {
   padding: 1rem;
   border-radius: 20px;
 }
+
+/* Suggested Previews Videos */
 
 .buttons-heading button {
   margin: 0.5rem;
