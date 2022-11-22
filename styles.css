@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+nav h3 {
+  font-weight: bolder;
+}
+
+nav button {
+  width: 60%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  text-align: left;
+  opacity: 0.7;
+  border-color: rgb(211, 211, 223);
+}
+nav h4 {
+  background-color: palevioletred;
+  padding: 10px;
+  border-radius: 80%;
+  color: white;
+}
